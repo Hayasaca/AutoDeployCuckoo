@@ -40,7 +40,7 @@ function downloadAgent() {
 	# Install gdown
 	sudo pip install gdown --no-use-pep517
 	# Agent.ova is a Windows7 (x86) virtual machine and used to be an Cuckoo agent
-	url="https://drive.google.com/u/0/uc?id=1uGxNwvSuSIhokeuX9N61D8VtyFDoK0-2&export=download"
+	url="https://drive.google.com/uc?export=download&id=1gdG0O_laFc2xvXWhPZSp62NTTPRF0TLb"
 	# Download from google drive
 	gdown --speed=50MB $url -O /tmp/Agent.ova
 }
